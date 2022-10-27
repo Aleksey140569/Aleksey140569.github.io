@@ -116,6 +116,11 @@ button:active {
 .menu__link {
   color: #ffffff;
 }
+
+
+.menu__link_active {
+  color: rgb(255, 251, 0);
+}
   
 .menu__link:hover {
   color: #ffffff;
