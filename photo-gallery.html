@@ -38,7 +38,7 @@
             МОЁ<span>ПОРТФОЛИО</span>
           </a>
         </div>
-        <div class="d-xl-none d-lg-none d-flex align-items-center">
+        <div class="d-xl-none d-lg-none d-flex align-items-center ">
           <div class="gamburger-block d-xl-none d-lg-none d-md-block, d-block">
             <a href="#" class="gamburger gumburger-active">
               <span></span>
@@ -82,7 +82,7 @@
               Привет, я разработчик сайтов
             </h1>
             <p class="offer__text">
-              Меня зовут Алексей Морозов, я разработчик сайтов, интеренет-магазинов под ключ, корпоративных сайтов. Так же я занимаюсь продвижением сайтов в поисковых системах.
+              На этой странице вы можете посмотреть мои лучшие работы. Приятного вам просмотра!
             </p>
             <a href="#" class="my-button offer__btn form-popup">
               Узнать больше...
@@ -92,73 +92,46 @@
       </div>
     </div>
   </header>
-  <section id="features" class="features">
-    <div class="container features__container">
+  <section id="gallery" class="gallery">
+    <div class="container d-flex h-100 justify-content-center align-items-center p-0">
       <div class="row">
-        <div class="col-lg-4 col-md-6">
-          <div class="feature">
-            <img src="img/pencils.png" alt="pencils" class="feature__image">
-            <h3 class="feature__title">
-              Корпоративный сайт
-            </h3>
-            <p class="feature__text">
-              Корпоративный сайт — это наше все и на нем нельзя экономить! Создаю лучшее для лучших!
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 justify-content-md-center justify-content-sm-center d-flex">
-          <div class="feature">
-            <img src="img/monitor-screen.png"  alt="monitor screen" class="feature__image">
-            <h3 class="feature__title">
-              Магазин под ключ
-            </h3>
-            <p class="feature__text">
-              Уникальный дизайн и удобная админ-панель! И пусть конкуренты смотрят вам в спину!
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 justify-content-md-center justify-content-sm-center d-flex">
-          <div class="feature">
-            <img src="img/lightbulb.png" alt="lightbulb" class="feature__image">
-            <h3 class="feature__title">
-                Наполнение сайтов
-            </h3>
-            <p class="feature__text">
-              Наполнение сайтов контентом, модерация сообщений! Доверьте ваш сайт профессионалу!
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 d-flex justify-content-md-center justify-content-sm-center">
-          <div class="feature">
-            <img src="img/atom.png" alt="lightbulb" class="feature__image">
-            <h3 class="feature__title">
-              Контекстная реклама
-            </h3>
-            <p class="feature__text">
-              Помогу настроить контекстную рекламу в Яндекс и Гугл. О вашем бизнесе должны узнать все!
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 justify-content-md-center justify-content-sm-center d-flex">
-          <div class="feature">
-            <img src="img/briefcase.png" alt="lightbulb" class="feature__image">
-            <h3 class="feature__title">
-              Поисковая оптимизация
-            </h3>
-            <p class="feature__text">
-              Улучшу позицию вашего сайта в поисковых системах! Ежедневная проверка позиции, конкретный результат!
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 justify-content-md-center justify-content-sm-center d-flex">
-          <div class="feature">
-            <img src="img/cloud.png" alt="lightbulb" class="feature__image">
-            <h3 class="feature__title">
-              Техподдержка
-            </h3>
-            <p class="feature__text">
-              Если что то случилось и ваш сайт стал недоступен, просто позвоните и я его починю!
-            </p>
+        <div class="col-12">
+          <div id="mygallery" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+              <li data-target="#mygallery" data-slide-to="0" class="active"></li>
+              <li data-target="#mygallery" data-slide-to="1"></li>
+              <li data-target="#mygallery" data-slide-to="2"></li>
+            </ul>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/slide001.jpg" class="img-fluid" alt="" width="1100" height="250">
+                <div class="carousel-caption">
+                  <p>Навреное нет иногда ничего сложнее, чем решиться сделать первый шаг.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/slide002.jpg" class="img-fluid" alt="" width="1100" height="250">
+                <div class="carousel-caption">
+                  <p>
+                    Многие так никогда и не решаются выйти за рамки привычного.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/slide003.jpg" class="img-fluid" alt="" width="1100" height="250">
+                <div class="carousel-caption">
+                  <p>
+                    И лишь победив свои страхи, ты узнаешь на что ты на самом деле способен!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#mygallery" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#mygallery" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
           </div>
         </div>
       </div>
@@ -283,10 +256,10 @@
         <div class="col-lg-6 d-flex flex-md-column ">
           <div class="quotation">
             <blockquote class="quotation__text">
-              “Если вашего бизнеса нет в интернете, значит, вас нет в бизнесе.”
+              “Однажды рискнув, можно остаться счастливым на всю жизнь.”
             </blockquote>
             <h5 class="quotation__title">
-              Билл Гейтс, основатель Microsoft
+              Неизвестный автор
             </h5>
           </div>
         </div>
@@ -376,9 +349,10 @@
       Форма успешно отправлена!
     </div>
   </div>
-  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/bootstrap/jquery.min.js"></script>
+  <script src="js/bootstrap/popper.min.js"></script>
+  <script src="js/bootstrap/bootstrap.min.js"></script>
   <script src="js/jquery.arcticmodal-0.3.min.js"></script>
-  <script src="js/bootstrap.js"></script>
   <script src="js/main.js" ></script>
 </body>
 </html>
