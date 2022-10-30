@@ -712,6 +712,26 @@ button:active {
 
 @media screen and (max-width: 767px) {
     
+  .menu__item:hover {
+    border-bottom: none;
+  }
+  
+  a.menu__link:hover {
+    color: #ff00ff;
+  }
+
+  .menu__item:last-child:hover {
+    border-bottom: none;
+  }
+    
+  .menu__item_active {
+    border-bottom: none;
+  }
+
+  .menu__item_active a {
+    color: #ff00ff;
+  }
+    
   .gamburger span,
   .gamburger span:before,
   .gamburger span:after {
@@ -728,6 +748,7 @@ button:active {
   }
 
   .offer {
+    border: none;
     padding: 90px 0 0 0;
   }
 
@@ -790,14 +811,12 @@ button:active {
   .carousel-caption {
     display: none;
   }
-  
-  
 }
 
 @media screen and (max-width: 394px) {
 
   .gamburger-block {
-    left: 8%;
+    left: 15%;
     top: -119%;
   }
 }
