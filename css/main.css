@@ -712,20 +712,24 @@ button:active {
 
 @media screen and (max-width: 767px) {
     
+  .menu__item {
+    border-bottom: none;
+  }
+  
   .menu__item:hover {
+    border-bottom: none;
+  }
+
+  .menu__item:last-child {
+    border: none;
+  }
+  
+  .menu__item:last-child:hover {
     border-bottom: none;
   }
   
   a.menu__link:hover {
     color: #ff00ff;
-  }
-
-  .menu__item:last-child:hover {
-    border-bottom: none;
-  }
-    
-  .menu__item_active {
-    border-bottom: none;
   }
 
   .menu__item_active a {
