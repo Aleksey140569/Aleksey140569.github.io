@@ -790,4 +790,14 @@ button:active {
   .carousel-caption {
     display: none;
   }
+  
+  
+}
+
+@media screen and (max-width: 394px) {
+
+  .gamburger-block {
+    left: 8%;
+    top: -119%;
+  }
 }
