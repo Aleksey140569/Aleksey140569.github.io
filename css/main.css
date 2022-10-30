@@ -732,6 +732,10 @@ button:active {
   a.menu__link:hover {
     color: #ff00ff;
   }
+  
+  .menu__item_active:hover {
+    padding: 0 20px 0 20px;
+  }
 
   .menu__item_active a {
     color: #ff00ff;
