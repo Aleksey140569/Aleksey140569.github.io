@@ -778,7 +778,7 @@ button:active {
   }
 }
 
-/* ------ 320 - 576 ------ */
+/* ------ 394 - 576 ------ */
 
 @media screen and (max-width: 575px) {
 
@@ -821,6 +821,8 @@ button:active {
     display: none;
   }
 }
+
+/* ------ 393 - 320 ------ */
 
 @media screen and (max-width: 394px) {
 
