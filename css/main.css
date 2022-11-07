@@ -822,6 +822,14 @@ button:active {
   }
 }
 
+/* ------ 497 - 393 ------ */
+
+@media screen and (max-width: 497px) {
+  .form {
+    padding: 0 0 0 0;
+  }
+}
+
 /* ------ 393 - 320 ------ */
 
 @media screen and (max-width: 394px) {
@@ -829,5 +837,17 @@ button:active {
   .gamburger-block {
     left: 15%;
     top: -119%;
+  }
+
+  .box-modal {
+    width: 270px;
+  }
+
+  .form__title {
+    font-size: 20px;
+  }
+
+  .form {
+    padding: 0 0 0 0;
   }
 }
